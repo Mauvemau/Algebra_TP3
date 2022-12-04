@@ -21,6 +21,7 @@ Scene::Scene(int screenWidth, int screenHeight) {
 }
 
 Scene::~Scene() {
+    delete player;
 	cout << "Scene was destroyed!\n";
 }
 

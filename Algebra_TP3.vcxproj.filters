@@ -28,6 +28,12 @@
     <ClCompile Include="src\utils.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="src\entity.cpp">
+      <Filter>Source Files\FrustumCulling</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cube.cpp">
+      <Filter>Source Files\FrustumCulling</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\scene.h">
@@ -44,6 +50,12 @@
     </ClInclude>
     <ClInclude Include="src\utils.h">
       <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\entity.h">
+      <Filter>Source Files\FrustumCulling</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cube.h">
+      <Filter>Source Files\FrustumCulling</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

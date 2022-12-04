@@ -159,6 +159,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="src\cube.cpp" />
+    <ClCompile Include="src\entity.cpp" />
     <ClCompile Include="src\frustum.cpp" />
     <ClCompile Include="src\inputManager.cpp" />
     <ClCompile Include="src\main.cpp" />
@@ -167,6 +169,8 @@
     <ClCompile Include="src\utils.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\cube.h" />
+    <ClInclude Include="src\entity.h" />
     <ClInclude Include="src\frustum.h" />
     <ClInclude Include="src\inputManager.h" />
     <ClInclude Include="src\player.h" />
