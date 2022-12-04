@@ -5,8 +5,14 @@
       <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
       <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
-    <Filter Include="Source Files\FrustumCulling">
+    <Filter Include="Source Files\program">
       <UniqueIdentifier>{d8fa4234-828d-4111-b283-ba99d5ee644e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\program\entity">
+      <UniqueIdentifier>{f93f05b9-e279-4c8f-93c5-67503fb3edd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\program\player">
+      <UniqueIdentifier>{5a3d1175-104c-4761-9e10-9324b8a26762}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -14,48 +20,54 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="src\scene.cpp">
-      <Filter>Source Files\FrustumCulling</Filter>
-    </ClCompile>
-    <ClCompile Include="src\frustum.cpp">
-      <Filter>Source Files\FrustumCulling</Filter>
-    </ClCompile>
-    <ClCompile Include="src\player.cpp">
-      <Filter>Source Files\FrustumCulling</Filter>
-    </ClCompile>
-    <ClCompile Include="src\inputManager.cpp">
-      <Filter>Source Files\FrustumCulling</Filter>
+      <Filter>Source Files\program</Filter>
     </ClCompile>
     <ClCompile Include="src\utils.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\entity.cpp">
-      <Filter>Source Files\FrustumCulling</Filter>
-    </ClCompile>
     <ClCompile Include="src\cube.cpp">
-      <Filter>Source Files\FrustumCulling</Filter>
+      <Filter>Source Files\program\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="src\entity.cpp">
+      <Filter>Source Files\program\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plane.cpp">
+      <Filter>Source Files\program\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="src\inputManager.cpp">
+      <Filter>Source Files\program\player</Filter>
+    </ClCompile>
+    <ClCompile Include="src\player.cpp">
+      <Filter>Source Files\program\player</Filter>
+    </ClCompile>
+    <ClCompile Include="src\frustum.cpp">
+      <Filter>Source Files\program\player</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\scene.h">
-      <Filter>Source Files\FrustumCulling</Filter>
-    </ClInclude>
-    <ClInclude Include="src\frustum.h">
-      <Filter>Source Files\FrustumCulling</Filter>
-    </ClInclude>
-    <ClInclude Include="src\player.h">
-      <Filter>Source Files\FrustumCulling</Filter>
-    </ClInclude>
-    <ClInclude Include="src\inputManager.h">
-      <Filter>Source Files\FrustumCulling</Filter>
+      <Filter>Source Files\program</Filter>
     </ClInclude>
     <ClInclude Include="src\utils.h">
       <Filter>Source Files</Filter>
     </ClInclude>
     <ClInclude Include="src\entity.h">
-      <Filter>Source Files\FrustumCulling</Filter>
+      <Filter>Source Files\program\entity</Filter>
     </ClInclude>
     <ClInclude Include="src\cube.h">
-      <Filter>Source Files\FrustumCulling</Filter>
+      <Filter>Source Files\program\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plane.h">
+      <Filter>Source Files\program\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="src\player.h">
+      <Filter>Source Files\program\player</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inputManager.h">
+      <Filter>Source Files\program\player</Filter>
+    </ClInclude>
+    <ClInclude Include="src\frustum.h">
+      <Filter>Source Files\program\player</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

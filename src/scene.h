@@ -2,9 +2,14 @@
 #include "raylib.h"
 
 #include "player.h"
+#include "entity.h"
+
+const int amountEntities = 16;
 
 class Scene {
 private:
+	Entity* entities[amountEntities];
+
 	Player* player;
 	RenderTexture screenFirstPerson;
 	RenderTexture screenTopDown;

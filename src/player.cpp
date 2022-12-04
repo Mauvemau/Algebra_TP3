@@ -29,9 +29,8 @@ void Player::updateCamera() {
     cameraFirstPerson.position = position;
     cameraFirstPerson.target = { position.x + cosf(rotation.y), position.y, position.z + sinf(rotation.y) };
     // Top Down.
-    cameraTopDown.position = { position.x, 20.0f, position.z };
+    cameraTopDown.position = { position.x, 25.0f, position.z };
     cameraTopDown.target = position;
-
 }
 
 void Player::initCamera(float fov) {
